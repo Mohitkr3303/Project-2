@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Page</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/trippage.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+
+  <!-- NavBar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light nav-Bar">
+    <div class="container-fluid" id="header">
+      <a class="navbar-brand" href="index.html"><img
+          src="TTS Logo package/TTS Logo package/TTS_Final LogoWhite.svg"></a>
+      <a href="#" id="nav-bar-number" class="offset-lg-2 p-2"><i class="fas fa-phone"></i> +91-9870301533</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active px-3" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-3" href="international-trip.html">INTERNATIONAL TRIPS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-3" href="contact-us.html">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-3" href="about-us.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid" id="trip-page-head">
+    <div class="container">
+      <div class="row text-white" id="city-of-dream">
+        <div class="col-12" id="city-of-dream-heading">
+          <h5 class="my-2 my-xl-5">City Of Dream</h5>
+          <h1><b>Dubai With Flights & Visa</b></h1>
+          <h5>Flights From Delhi/Mumbai</h4>
+        </div>
+      </div>
+      <div class="col-12 text-end py-1" id="city-of-dream-btn">
+        <a href="#" type="button" class="btn mx-md-5" id="city-of-dream-btn-1">GET ITINERARY</a>
+        <a href="#" type="button" class="btn" id="city-of-dream-btn-2" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">BOOK NOW</a>
+      </div>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <h3>PLEASE SELECT YOUR BATCH DATES</h3>
+
+              <div class="booking-table">
+                <form id="regForm" action="">
+                  <div id="modal-heading">
+                    <h1>Nov</h1>
+                  </div>
+                  <!-- One "tab" for each step in the form: -->
+                  <div class="tab">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6" id="modal-body">
+                          <div class="container">
+                            <div class="row row-cols-2" id="modal-dates">
+                              <div class="col-6">
+                                <h6>Start Date:</h6>
+                                <h6>End Date:</h6>
+                                <h6>Flight From:</h6>
+                              </div>
+                              <div class="col-6">
+                                <h6>12 Nov 2022</h6>
+                                <h6>17 Nov 2022</h6>
+                                <h6>Mumbai</h6>
+                              </div>
+                              <div class="col-12" id="check-box">
+                                <input type="checkbox" name="Location">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6" id="modal-body">
+                          <div class="container">
+                            <div class="row row-cols-2" id="modal-dates">
+                              <div class="col-6">
+                                <h6>Start Date:</h6>
+                                <h6>End Date:</h6>
+                                <h6>Flight From:</h6>
+                              </div>
+                              <div class="col-6">
+                                <h6>12 Nov 2022</h6>
+                                <h6>17 Nov 2022</h6>
+                                <h6>Delhi</h6>
+                              </div>
+                              <div class="col-12" id="check-box">
+                                <input type="checkbox" name="Location">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab">
+                    <div class="container">
+                      <div class="row" id="batch-detail">
+                        <div class="col-4">
+                          <h6>Type</h6>
+                        </div>
+                        <div class="col-4">
+                          <h6>Price (per person)</h6>
+                        </div>
+                        <div class="col-4">
+                          <i class="fas fa-user"></i>
+                        </div>
+                      </div>
+                      <div class="row" id="batch-detail">
+                        <div class="col-4">
+                          <h6>Double Sharing</h6>
+                        </div>
+                        <div class="col-4">
+                          <h6>₹ 84,999/-</h6>
+                        </div>
+                        <div class="col-4">
+                          <div class="input-group">
+                            <span class="input-group-btn">
+                              <a class="quantity-left-minus" data-type="minus" data-field="">
+                                <span class="glyphicon glyphicon-minus"><i class="fas fa-minus"></i></span>
+                              </a>
+                            </span>
+                            <input type="text" id="quantity" name="quantity"
+                              class="form-control input-number text-center border-0" value="10" min="1" max="100"
+                              size="3">
+                            <span class="input-group-btn">
+                              <a class="quantity-right-plus" data-type="plus" data-field="">
+                                <span class="glyphicon glyphicon-plus"><i class="fas fa-plus"></i></span>
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="tab">
+                <div class="container" id="personal-detail">
+                  <fieldset>
+                    <label>First name *</label>
+                    <input type="text" id="fname"><br><br>
+                    <label>contact us *</label>
+                    <input type="text" id="lname"><br><br>
+                    <label>Email *</label>
+                    <input type="email" id="email"><br><br>
+                    <label>Address *</label>
+                    <textarea cols="30" rows="8"></textarea>
+                  </fieldset>
+                </div>
+              </div>
+
+              <div class="tab">Login Info:
+                <p><input placeholder="Username..." oninput="this.className = ''"></p>
+                <p><input placeholder="Password..." oninput="this.className = ''"></p>
+              </div>
+
+              <div style="overflow:auto;">
+                <div id="step-button">
+                  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                  <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+              </div>
+
+              <!-- Circles which indicates the steps of the form: -->
+              <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+              </div>
+
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container my-5" id="text-area">
+    <div class="row" id="trip-info">
+      <div class="col-12 col-md-8">
+        <div class="row row-cols-3" id="quick-information">
+          <div class="col-4 col-md-3" id="quick-info">
+            <a href="#"><i class="fas fa-clock-four"></i></a>
+            <p class="m-0 p-0">Duration</p>
+            <h5>5N - 6D</h5>
+          </div>
+          <div class="col-4 col-md-3" id="quick-info">
+            <a href="#"><i class="fas fa-indian-rupee-sign"></i></a>
+            <p class="m-0 p-0">Starting Price</p>
+            <h5>₹84,999/-</h5>
+          </div>
+          <div class="col-4 col-md-3" id="quick-info">
+            <a href="#"><i class="fas fa-location-dot"></i></a>
+            <p class="m-0 p-0">Pick-up and Drop</p>
+            <h5>Delhi/Mumbai</h5>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <ul class="nav nav-tabs border-0" id="mytab">
+              <div class="row">
+                <div class="col-4">
+                  <li class="nav-item">
+                    <a href="#Itinerary" class="nav-link border-0" data-bs-toggle="tab">Itinerary</a>
+                  </li>
+                </div>
+                <div class="col-4">
+                  <li class="nav-item">
+                    <a href="#Dates-Costing" class="nav-link border-0" data-bs-toggle="tab">Dates & Costing</a>
+                  </li>
+                </div>
+                <div class="col-4">
+                  <li class="nav-item">
+                    <a href="#Other-Info" class="nav-link border-0" data-bs-toggle="tab">Other Info</a>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <div class="tab-content py-3">
+            <div class="tab-pane fade" id="Itinerary">
+              <h1 class="my-3">Itinerary</h1>
+              <div class="accordion-item border-0">
+                <div id="day-1">
+                  <div class="day">
+                    <h6 class="p-0 m-0">Day 1:</h6>
+                  </div>
+                  <div class="day-content">
+                    <h6 data-bs-toggle="collapse" data-bs-target="#collapseTwo" class="pt-1"> Kickstart Your Dubai
+                      Experience In Style! The Day Will Be All About Cruising And Enjoying The Arabian Nights.</h6>
+                  </div>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body p-3">
+                    <li>Arrive at Dubai airport and transfer to the hotel.</li>
+                    <li>Check in to the hotel and rest for a while.</li>
+                    <li>In the evening enjoy the Dhow cruise dining experience on Marina. Experience this cruise dinner
+                      while cruising &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;through the waters of Dubai and witness Dubai's
+                      shining horizon with a large range of &dishes offering flavors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from
+                      everywhere in the world. Enjoy Tanoura Show & Belly Dance.</li>
+                    <li>After having dinner and some splendid time head back to the hotel.</li>
+                    <li>Overnight stay at the hotel in Dubai.</li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item my-3 border-0">
+                <div id="day-1">
+                  <div class="day">
+                    <h6 class="p-0 m-0">Day 2:</h6>
+                  </div>
+                  <div class="day-content">
+                    <h6 data-bs-toggle="collapse" data-bs-target="#collapseThree" class="pt-1">Experience Both Traditional And Modern
+                      Dubai In A Day. Keep Your
+                      Energy Intact For The Thrilling Dune Bashing In The Evening.</h6>
+                  </div>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body p-3">
+                    <li>Post breakfast depart for Dubai City Tour.</li>
+                    <li>Places to visit during the Dubai city tour: Panoramic view of Jumeirah Mosque, Burj Al Arab
+                      Hotel View, the Palm, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atlantis Hotel, Jumeirah Beach and Sheik Zayed
+                      Road.</li>
+                    <li>Around 3:30 pm depart for Desert Safari. Desert Safari in Dubai is a once-in-a-lifetime event
+                      that will give you an adrenaline rush as soon as you hit the sands in a vehicle with full torque
+                      and power. Enjoy Dune bashing.</li>
+                    <li>After the safari enjoys activities like shisha, Belly dance show, Tanura show, and Fire show
+                      followed by BBQ dinner.</li>
+                    <li>Overnight stay at the hotel in Dubai.</li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0">
+                <div id="day-1">
+                  <div class="day">
+                    <h6 class="p-0 m-0">Day 3:</h6>
+                  </div>
+                  <div class="day-content">
+                    <h6 data-bs-toggle="collapse" data-bs-target="#collapsefour" class="pt-1">Admire The City Scrapers From Another
+                      Yet Remarkable Skyscraper.
+                      Take A Tour Of Dubai Mall, Which Is A Lot More Than Just A Shopping Centre. Overnight Stay In
+                      Dubai.</h6>
+                  </div>
+                </div>
+                <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body p-3">
+                    <li>Post breakfast, get ready to tour the tallest building in the world. From the top of the 124th
+                      floor of Burj Khalifa, get a glimpse into the city beneath and beyond!</li>
+                    <li>Explore Dubai Mall, a Mall like no other.</li>
+                    <li>Explore the rest of the day on your own.</li>
+                    <li>Head back to the hotel.</li>
+                    <li>Overnight stay in the hotel.</li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item my-3 border-0">
+                <div id="day-1">
+                  <div class="day">
+                    <h6 class="p-0 m-0">Day 4:</h6>
+                  </div>
+                  <div class="day-content">
+                    <h6 data-bs-toggle="collapse" data-bs-target="#collapsefive" class="pt-1">Time To Explore The Capital City Of The
+                      Emirates. Ride The Speed
+                      Here.</h6>
+                  </div>
+                </div>
+                <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body p-3">
+                    <li>Post breakfast, get ready for the Abu Dhabi city tour by 8 am.</li>
+                    <li>Places to visit during the city tour: Sheik Zayed Mosque etc.</li>
+                    <li>Visit Ferrari World with a One Day One Park ticket (park timings 11 am to 8 pm). Enjoy all the
+                      activities.</li>
+                    <li>Return to Dubai at 5 pm.</li>
+                    <li>Enjoy the fountain show underneath the Burj Khalifa. This 30-minute show is an unmissable
+                      attraction in Dubai.</li>
+                    <li>Dinner and overnight stay in the hotel.</li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0">
+                <div id="day-1">
+                  <div class="day">
+                    <h6 class="p-0 m-0">Day 5:</h6>
+                  </div>
+                  <div class="day-content">
+                    <h6 data-bs-toggle="collapse" data-bs-target="#collapsesix" class="pt-1">Leisure Day | DIY</h6>
+                  </div>
+                </div>
+                <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body p-3">
+                    <li>Post breakfast you are free to Explore Dubai on your own.</li>
+                    <li>You are free to explore the city on your own or get indulged in any adventure activity.</li>
+                    <li>The cost of various adventure activities is mentioned in the Notes section and will be an add-on
+                      cost to the trip.</li>
+                    <li>Later come back to the hotel. Overnight stay at the hotel in Dubai.</li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item my-3 border-0">
+                <div id="day-1">
+                  <div class="day">
+                    <h6 class="p-0 m-0">Day 6:</h6>
+                  </div>
+                  <div class="day-content">
+                    <h6 data-bs-toggle="collapse" data-bs-target="#collapseseven" class="pt-1">Check Out From The Hotel. Peek Into
+                      How Your Future Looks At Dubai
+                      Future Museum. Fly Back Home.</h6>
+                  </div>
+                </div>
+                <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body p-3">
+                    <li>Post breakfast, check -out and depart for the Dubai Future Museum tour.</li>
+                    <li>Collect your baggage and depart for your return flight according to the flight timings.</li>
+                  </div>
+                </div>
+              </div>
+              <div class="note">
+                <p>
+                  NOTE: Optional Add-On: Full day Jebel Jaish Tour @ ₹12,000/person (Includes pickup and drop from the
+                  hotel + ZIP Line + Sledge)- min 6 people required.
+                </p>
+                <br>
+                <p>
+                  NOTE: Optional Add-On: Full day Atlantis Aqua Adventure and Lost Chamber Tour @ ₹9,000/person
+                  (Includes pickup & drop and entry tickets to both of the places)
+                </p>
+                <br>
+                <p>
+                  NOTE: Optional Add-On: Half day AIN Dubai Tour @ ₹6,000/person (Includes pickup and drop + Entry
+                  tickets)
+                </p>
+                <br>
+                <p>
+                  NOTE: Optional Add-On: Sky Diving starting from ₹53,000/person (includes medical insurance, standard
+                  video & photos + One-minute Instagram video)
+                </p>
+                <br>
+                <p>
+                  NOTE: For Abu-Dhabi visit RT-PCR report is mandatory. It should be taken 6 days to 1 day prior from
+                  the date of departure from India.
+                </p>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="Dates-Costing">
+
+              <div class="dates">
+                <h1>Dates</h1>
+              </div>
+              <div class="month bg-dark text-white my-3">
+                <h5>NOV</h5>
+              </div>
+              <div class="batch-dates my-3">
+                <h5>12-Nov-2022 - 17-Nov-2022 <br>(3 Seats Left)</h5>
+              </div>
+              <div id="dates-costing-btn">
+                <button type="button" class="btn">Book Now</button>
+              </div>
+              <div class="special my-3">
+                <p>*Same trip also available on following special dates with slightly different details. Click below to
+                  view.</p>
+              </div>
+              <div id="booking-dates">
+                <button type="button" class="btn">21-Dec-2022</button>
+                <button type="button" class="btn">28-Dec-2022</button>
+                <button type="button" class="btn">29-Dec-2022</button>
+              </div>
+
+              <div class="container">
+                <div class="costing">
+                  <h1 class="my-3 my-md-5">Costing</h1>
+                </div>
+                <table id="main-table">
+                  <thead>
+                    <tr class="table-heading">
+                      <td width="50">batch date</td>
+                      <td width="50">Cost (Per Person)</td>
+                    <tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>21st Oct - 26th Oct <br> (From Mumbai)</td>
+                      <td>₹ 84,999/-</td>
+                    </tr>
+                    <tr>
+                      <td>13th Nov - 18th Nov <br> (From Mumbai)</td>
+                      <td>₹ 84,999/-</td>
+                    </tr>
+                    <tr>
+                      <td>13th Nov - 18th Nov (From Delhi) </td>
+                      <td>₹ 84,999/-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="container">
+                <div class="inclusion my-5">
+                  <div class="inclusion-heading">
+                    <h1 class="my-4">inclusion</h1>
+                  </div>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;5 nights' accommodation on a double sharing
+                    basis with breakfast (5 breakfast in total from Day 2 to Day 6)
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;1 special cruise dinner for the entire group
+                    overlooking the skyline of Dubai</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Desert Safari with special Barbeque dinner
+                    under the stars</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Return International flight with airport pick
+                    up & drop at the destination city</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;All transportations by A/c Vehicles on a
+                    private basis.</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Full day trip to Abu Dhabi with Entry to
+                    Ferrari World followed by Fountain Show</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Visit to 124th Floor of Burj Khalifa
+                    (non-peak
+                    hours)</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Visit to Dubai Futures Museum</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Free time at Dubai Mall - one of the largest
+                    shopping mall</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Experiences as mentioned in the Itinerary
+                    with
+                    entry tickets wherever required</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Team Captain/ Tour Guide to enhancing the
+                    overall experience of community travel</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;24*7 on-call travel assistance.</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Single Entry Visa for UAE and Medical
+                    Insurance.</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Tourism Dirham as required by the hotels.
+                    </li>
+                  </p>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="exclusion">
+                  <div class="exclusion-heading">
+                    <h1 class="my-3">exclusion</h1>
+                  </div>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Any expense of personal nature.</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Any meals not explicitly mentioned in the
+                    itinerary.</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;GST and TCS as applicable.</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Any change in itinerary due to unforeseen
+                    conditions.</li>
+                  </p>
+                </div>
+              </div>
+
+              <div class="conatiner">
+                <div class="add-ons ms-4">
+                  <div class="add-ons-heading">
+                    <h1>add ons</h1>
+                  </div>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Full day Jebel Jaish Tour @ ₹12,000/person
+                    (Includes pickup and drop from the hotel + ZIP Line + Sledge)</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Full day Atlantis Aqua Adventure and Lost
+                    Chamber Tour @ ₹9,000/person (Includes pickup & drop and entry tickets to both of the places)
+                    </li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Half day AIN Dubai Tour @ ₹6,000/person
+                    (Includes pickup and drop + Entry tickets)</li>
+                  </p>
+                  <p>
+                    <i class="fas fa-up-right-from-square"></i>&nbsp;&nbsp;Sky Diving starting from ₹53,000/person
+                    (includes medical insurance, standard video & photos + One-minute Instagram video)</li>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="Other-Info">
+
+              <div class="other my-3">
+                <div class="other-heading">
+                  <h1 class="my-5">Other Info</h1>
+                </div>
+
+                <div class="container">
+                  <div class="must-carry my-5">
+                    <h3>Must Carry</h3>
+                    <ul>
+                      <li>Authentic Government ID Card and Passport</li>
+                      <li>Sunscreen & lip balm, Good U/V protection sunglasses</li>
+                      <li>Personal Medicines (if any)</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="cancelling">
+                    <h1>Cancellation Policy</h1>
+                    <h5>No Refund shall be made with respect to the initial booking amount for any cancellations.
+                      However,
+                    </h5>
+                    <ul>
+                      <li>If cancellations are made 30 days before the start date of the trip, 50% of the trip cost will
+                        be charged as cancellation fees.
+                      </li>
+                      <li>If cancellations are made 15-30 days before the start date of the trip, 75% of the trip cost
+                        will be charged as cancellation fees.</li>
+                      <li>If cancellations are made within 0-15 days before the start date of the trip, 100% of the trip
+                        cost will be charged as cancellation fees.</li>
+                      <li>In the case of unforeseen weather conditions or government restrictions, certain activities
+                        may
+                        be cancelled and in such cases, the operator will try his best to provide an alternate feasible
+                        activity. However, no refund will be provided for the same.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="container my-2 text-center" id="review">
+                  <h3>Get ready for 5-star Experiences with us</h3>
+                  <div class="row row-cols-3 py-5 d-flex align-items-center justify-content-between">
+                    <div class="col-3">
+                      <img src="img/asset 26.png">
+                      <p><img src="img/asset 27.png"><b>4.9</b><br>(5063 reviews)</p>
+                    </div>
+                    <div class="col-3">
+                      <img src="img/asset 28.png">
+                      <p><img src="img/asset 27.png"><b>5.0</b><br>(1479 reviews)</p>
+                    </div>
+                    <div class="col-3">
+                      <img src="img/asset 29.png">
+                      <p><img src="img/asset 27.png"><b>4.9</b><br>(645 reviews)</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="thingtocarry my-3">
+                    <h2>Things To Carry</h2>
+                    <h5>Clothes</h5>
+                    <ul>
+                      <li>A sun cap</li>
+                      <li>UV protected sunglasses</li>
+                      <li>One cotton long sleeves and 2 short sleeve t-shirt</li>
+                      <li>At least 2 long pants (trek pants and cargo pants are favourable) and shorts</li>
+                      <li>Multiple sets of undergarments</li>
+                      <li>Pair of socks</li>
+                      <li>A small towel</li>
+                      <li>A windcheater jacket as desert will be little cold in night</li>
+                    </ul>
+
+                    <h5>Footwear</h5>
+                    <ul>
+                      <li>Sport shoes/ sneakers</li>
+                      <li>Flip flops/sandals</li>
+                    </ul>
+
+                    <h5>Medication</h5>
+                    <ul>
+                      <li>Glucose powder</li>
+                      <li>Medicines for headaches, diarrhoea, motion sickness</li>
+                      <li>Dettol</li>
+                      <li>Bandages</li>
+                      <li>Cotton</li>
+                    </ul>
+
+                    <h5>Personal Accessories</h5>
+                    <ul>
+                      <li>Toothpaste, toothbrush</li>
+                      <li>Paper soap, or sanitizer</li>
+                      <li>Sunscreen minimum of spf40 , lip balm, cold creams</li>
+                      <li>Body spray</li>
+                      <li>LED torch light</li>
+                    </ul>
+                  </div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="highlight">
+            <h1>Highlight</h1>
+            <p>
+              <li>
+                The tallest building, fastest roller-coaster, and a peek into the future, DUBAI bears it all. Every
+                traveller wishes to witness the transformation from a quaint fishing village surrounded by vast desert
+                planes to a thriving cultural melting pot.
+              </li>
+              <li>
+                Popular for its extravagant shopping centres, ultimate architecture, and astonishing vehicles. The food,
+                the Emirati culture, individuals, the city's back streets and mosques, and the heavenly sites all over
+                the
+                city make it one of a kind. We'll have the option to see all sides of the city with a city tour,
+                including
+                the lavish and the cultural! We will visit the Burj Khalifa, spend an evening in the desert drenched in
+                the culture, and wonder about the greatness of the Persian Gulf and its islands from the Jumeriah beach
+                and the Palm's artificial island!
+              </li>
+              <li>
+                The architectural wonders of mosques and hotels are also included! The evening desert entertainment and
+                Dubai's fountain show bring the event to a close, leaving us with a bag full of memories.
+              </li>
+              <li>
+                If your adrenaline rush has still not touched its peak, you now have an option to explore the
+                adventurous
+                emirate of Ras Al Khaimah. A picturesque city located in the Al Hajar mountain range's foothills. The
+                city
+                screams adventure, and you should be eager to take it on! It's a favourite destination for adrenaline
+                seekers, with tours of the world's highest mountain peak, Jebel Jais, and the thrill of riding the
+                world's
+                longest zip line! The vistas in this area are untouched and unparalleled, while farms and communities
+                can
+                be found in the mountains.
+              </li>
+              <li>
+                Do you want to immerse yourself in Emirati culture's luxury? Join us on a journey in Dubai.
+              </li>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="gallery">
+            <h1>Photo</h1>
+            <div class="grid-container py-3">
+              <div class="grid-item-1">
+                <img src="img/grid-img-1.jpg">
+              </div>
+              <div class="grid-item-1">
+                <img src="img/grid-img-2.jpg">
+              </div>
+              <div class="grid-item-1">
+                <img src="img/grid-img-3.jpg">
+              </div>
+              <div class="grid-item-1">
+                <img src="img/grid-img-4.jpg">
+              </div>
+              <div class="grid-item-1">
+                <img src="img/grid-img-5.jpg">
+              </div>
+              <div class="grid-item-1">
+                <img src="img/grid-img-6.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="container g-0">
+            <div class="row">
+              <div class="col-12 mb-5">
+                <h1>FAQ</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Question 1
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, blanditiis soluta rem asperiores odit officiis omnis rerum eos, minus recusandae a eveniet sapiente excepturi id error neque aut iusto et.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Question 2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, molestias corrupti! Nobis sit cupiditate tenetur non. Veritatis beatae ut dolores, corporis accusantium natus accusamus necessitatibus nulla quasi quod quae nobis?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Question 3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti, aliquid est delectus minus ipsum architecto! Ullam quaerat minima sapiente deleniti. Vero eum ad ipsum quae neque modi voluptate commodi.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12 col-md-4" id="get-in-touch">
+        <div class="main ms-md-5">
+          <h6 class="text-center m-0 py-4">Trips so perfect that Travelers want you to know more about their
+            experiences!
+          </h6>
+          <div class="youtube-link my-md-3">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <form class="p-3 p-md-0">
+            <h1>get in touch</h1>
+
+            <h6 class="py-1">Full Name:</h6>
+            <input type="text">
+            <h6 class="py-1">Contact No.*</h6>
+            <input type="text">
+            <h6 class="py-1">Email ID.* </h6>
+            <input type="text">
+            <h6 class="py-1">Preferred Destination.* </h6>
+            <input type="text">
+
+            <button type="button" class="btn btn-dark my-3 px-5 py-2" id="city-of-dream-btn-1-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="swiper mySwiper my-2" id="swiper">
+        <div class="row">
+          <div class="col-7 col-md-6 d-flex ">
+            <h1 class="p-4">Upcoming Trips</h1>
+          </div>
+          <div class="col-5 col-md-6 d-flex justify-content-end p-3" id="view-all-button">
+            <a href="#" id="view-all-button">View all &nbsp;<i class="fas fa-greater-than"></i></a>
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a1.jpg" class="card-img-top" id="image-1">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 5N-6D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Guwahti</p>
+                <h5 class="card-text"><b>Meghalaya Road Trip</b></h5>
+                <h6>starts at <b> ₹21,999/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a2.jpg" class="card-img-top" id="image-2">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 6N-7D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Spiti Backpacking</b></h5>
+                <h6>starts at <b>₹21,999/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a3.jpg" class="card-img-top" id="image-3">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 4N-5D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Mcleodganj Bir Tirthan</b></h5>
+                <h6>starts at <b> ₹18,499/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a4.jpg" class="card-img-top" id="image-4">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 4N-5D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Tirthan Manali </b></h5>
+                <h6>starts at <b> ₹15,999/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a5.jpg" class="card-img-top" id="image-5">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 2N-3D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Chopta Tungnath</b></h5>
+                <h6>starts at <b> ₹7,999/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 24rem;">
+              <img src="img/a6.jpg" class="card-img-top" id="image-7">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 2N-3D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Manali Lahaul Atal Tunnel</b></h5>
+                <h6>starts at <b> ₹7,499/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a7.jpg" class="card-img-top" id="image-8">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 2N-3D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Kasol Kheerganga</b></h5>
+                <h6>starts at <b> ₹7,499/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a8.jpg" class="card-img-top" id="image-8">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 2N-3D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Delhi</p>
+                <h5 class="card-text"><b>Tirthan Valley</b></h5>
+                <h6>starts at <b> ₹7,499/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide" href="trippage.html">
+            <div class="card border-0" style="width: 20rem; height: 23rem;">
+              <img src="img/a9.jpg" class="card-img-top" id="image-8">
+              <div class="card-body text-start">
+                <p class="card-title"><i class="fas fa-clock-four"></i> 5N-6D &nbsp;&nbsp;&nbsp;<i
+                    class="fas fa-location-dot"></i> Guwahti</p>
+                <h5 class="card-text"><b>Meghalaya Road Trip</b></h5>
+                <h6>starts at <b> ₹21,999/-</b></h6>
+                <p><i class="fas fa-calendar-week"></i> 29 oct</p>
+              </div>
+            </div>
+        </div>
+        </a>
+        <div class="swiper-button-next rounded-pill text-info"></div>
+        <div class="swiper-button-prev rounded-pill text-info"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer    -->
+
+  <div class="container-fluid text-start" id="footer">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-12 col-sm-3 p-3 border-end">
+          <h6 class="m-0 p-0"><img src="TTS Logo package/TTS Logo package/TTS_Final LogoWhite.svg" width="35%"></h6>
+          <p>We at The Travel Story are a modern travel community that provides end to end travel packages in India and
+            abroad.
+            We design the best travel itineraries that encourage group traveling for like-minded people. Our services
+            include road trips, trekking expeditions, corporate trips, and customized tour packages. On our trips, we
+            ensure hassle-free traveling, top-notch accommodation and guided sightseeing that too in a budget that won't
+            burn a hole in your pocket. Just give us your dates and be ready to experience traveling like never before.
+          </p>
+        </div>
+        <div class="col-6 col-sm-3 border-end p-4">
+          <h6 class="m-0 p-0"><b>Backpacking Trips</b></h6>
+          <p>
+            <a href="#"> Himachal Backpacking</a><br>
+            <a href="#">Spiti Valley Trips</a><br>
+            <a href="#">Ladakh Trips</a><br>
+            <a href="#">Meghalaya Backpacking</a><br>
+            <a href="#">Kashmir Backpacking</a>
+          </p>
+          <h6 class="m-0 p-0"><b>Blogs</b></h6>
+          <p>
+            <a href="#">Beautiful Places to Visit <br> in Spring in India</a><br>
+            <a href="#">Workcations: The New <br> Trend of Travel</a><br>
+            <a href="#">Breathtaking <br> Monasteries of Ladakh</a><br>
+            <a href="#">Soul-Satisfying things to <br> do in Spiti Valley</a><br>
+            <a href="#">Mesmerising Waterfalls <br> of Meghalaya to Visit</a><br>
+          </p>
+        </div>
+        <div class="col-6 col-sm-3 p-4 border-end">
+          <h4 class="text-white m-0 p-0"><b>Quick Links</b></h4>
+          <p>
+          <h5><a href="#" class="text-white">Privacy Policy</a></h5>
+          <h5><a href="#" class="text-white">Cancellation Policy</a></h5>
+          <h5><a href="#" class="text-white">Terms & Conditions</a></h5>
+          <h5><a href="#" class="text-white">Disclaimer</a></h5>
+          <h5><a href="#" class="text-white">About Us</a></h5>
+          </p>
+        </div>
+        <div class="col-12 col-sm-3 text-start">
+          <h4 class="text-white m-0 p-4"><b>Contact Us</b></h4>
+          <div class="container g-0">
+            <div class="row text-center" id="footer-about">
+              <p><i class="fas fa-address-book"></i>C-4/151-152 Third Floor, Sector 6 Rd, Rohini, New Delhi, Delhi 110085</p>
+              <p><i class="fas fa-phone"></i>+91-9870301533</p>
+              <p><i class="fas fa-envelope"></i>thetravelstory@gmail.com</p>
+              <h4 class="text-white text-start"><b>GET SOCIAL</b></h4>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- swiper js   -->
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 25,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        950: {
+          slidesPerView: 4,
+        },
+      },
+    });
+
+    var currentTab = 0; // Current tab is set to be the first tab (0)
+    showTab(currentTab); // Display the current tab
+
+    function showTab(n) {
+      // This function will display the specified tab of the form ...
+      var x = document.getElementsByClassName("tab");
+      x[n].style.display = "block";
+      // ... and fix the Previous/Next buttons:
+      if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+      } else {
+        document.getElementById("prevBtn").style.display = "inline";
+      }
+      if (n == (x.length - 1)) {
+        document.getElementById("nextBtn").innerHTML = "Submit";
+      } else {
+        document.getElementById("nextBtn").innerHTML = "Next";
+      }
+      // ... and run a function that displays the correct step indicator:
+      fixStepIndicator(n)
+    }
+
+    function nextPrev(n) {
+      // This function will figure out which tab to display
+      var x = document.getElementsByClassName("tab");
+      // Exit the function if any field in the current tab is invalid:
+      if (n == 1 && !validateForm()) return false;
+      // Hide the current tab:
+      x[currentTab].style.display = "none";
+      // Increase or decrease the current tab by 1:
+      currentTab = currentTab + n;
+      // if you have reached the end of the form... :
+      if (currentTab >= x.length) {
+        //...the form gets submitted:
+        document.getElementById("regForm").submit();
+        return false;
+      }
+      // Otherwise, display the correct tab:
+      showTab(currentTab);
+    }
+
+    function validateForm() {
+      // This function deals with validation of the form fields
+      var x, y, i, valid = true;
+      x = document.getElementsByClassName("tab");
+      y = x[currentTab].getElementsByTagName("input");
+      // A loop that checks every input field in the current tab:
+      for (i = 0; i < y.length; i++) {
+        // If a field is empty...
+        if (y[i].value == "") {
+          // add an "invalid" class to the field:
+          y[i].className += " invalid";
+          // and set the current valid status to false:
+          valid = false;
+        }
+      }
+      // If the valid status is true, mark the step as finished and valid:
+      if (valid) {
+        document.getElementsByClassName("step")[currentTab].className += " finish";
+      }
+      return valid; // return the valid status
+    }
+
+    function fixStepIndicator(n) {
+      // This function removes the "active" class of all steps...
+      var i, x = document.getElementsByClassName("step");
+      for (i = 0; i < x.length; i++) {
+        x[i].className = x[i].className.replace(" active", "");
+      }
+      //... and adds the "active" class to the current step:
+      x[n].className += " active";
+    }
+
+
+    $(document).ready(function () {
+
+      var quantitiy = 0;
+      $('.quantity-right-plus').click(function (e) {
+
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+
+        // If is not undefined
+
+        $('#quantity').val(quantity + 1);
+
+
+        // Increment
+
+      });
+
+      $('.quantity-left-minus').click(function (e) {
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+
+        // If is not undefined
+
+        // Increment
+        if (quantity > 0) {
+          $('#quantity').val(quantity - 1);
+        }
+      });
+
+    });
+
+    $(window).scroll(function () {
+
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+
+  </script>
+
+</body>
+
+</html>

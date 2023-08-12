@@ -1,0 +1,1774 @@
+@font-face {
+  font-family: mont;
+  src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: mont;
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+}
+
+/* Style the form */
+#regForm {
+  width: 60%;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+#regForm {
+  width: 50%;
+}
+
+#modal-heading {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#step-button {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+#modal-dates {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#check-box {
+  display: flex;
+}
+
+#modal-heading {
+  background-color: rgb(58, 58, 58);
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+#step-button {
+  width: 100%;
+  height: 100%;
+}
+
+#step-button button {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+#batch-detail {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#personal-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border: 1px solid #000;
+}
+
+#personal-detail input {
+  border-radius: 10px;
+}
+
+#batch-detail h6 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+}
+
+#batch-detail i {
+  font-size: 3rem;
+}
+
+.glyphicon {
+  font-size: .6rem;
+}
+
+#navbarNav a:hover {
+  background-color: #18c9c9;
+}
+
+#nav-bar-number:hover {
+  background-color: #18c9c9;
+}
+
+.nav-Bar.scrolled {
+  background-color: black;
+}
+
+.swiper-wrapper a {
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 30;
+}
+
+.navbar-brand {
+  width: 20%;
+}
+
+.navbar-brand img {
+  width: 41%;
+}
+
+#nav-bar-number {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+#header {
+  font-size: 0.8rem;
+}
+
+#header a {
+  color: #fff;
+}
+
+#trip-page-head {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/dubai-trip-img-3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+}
+
+#city-of-dream {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+}
+
+#city-of-dream-btn-1-submit {
+  height: 2.5rem;
+  width: 7rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: rgb(58, 58, 58);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#city-of-dream-btn-1 {
+  height: 3.5rem;
+  width: 15rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  color: rgb(58, 58, 58);
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#city-of-dream-btn-2 {
+  height: 3.5rem;
+  width: 15rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  color: rgb(58, 58, 58);
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#city-of-dream-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+#city-of-dream-heading {
+  height: 63vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+#city-of-dream-heading h5 {
+  font-size: 1.25rem;
+}
+
+#city-of-dream-heading h1 {
+  font-size: 4.5vw;
+  font-weight: 400;
+}
+
+
+#quick-information a {
+  display: block;
+  font-size: 1.5rem;
+  background-color: rgba(58, 58, 58, 0.2);
+  width: 50px;
+  height: 50px;
+  color: #000;
+  border-radius: 5rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+#quick-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#quick-information i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+#quick-info p {
+  font-size: .9rem;
+  color: rgb(58, 58, 58);
+}
+
+#quick-info h5 {
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50% 50%;
+  gap: 1rem 1rem;
+}
+
+.grid-item-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.grid-item-1 img:hover {
+  transform: scale(1.1);
+}
+
+.highlight li {
+  color: grey;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#swiper h1 {
+  font-size: 2rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide h1 {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: .7rem 2rem;
+}
+
+.mySwiper h1 {
+  font-size: 1.3rem;
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #18c9c9;
+}
+
+.card-body i {
+  font-size: 1rem;
+  color: #18c9c9;
+}
+
+.card-body h5,
+h6 {
+  color: rgb(58, 58, 58);
+}
+
+
+#image-1 {
+  border-radius: 10px;
+}
+
+#image-2 {
+  border-radius: 10px;
+  height: 65%;
+}
+
+#image-3 {
+  border-radius: 10px;
+  height: 65%;
+}
+
+#image-4 {
+  border-radius: 10px;
+  height: 65%;
+}
+
+#image-5 {
+  border-radius: 10px;
+  height: 65%;
+}
+
+#image-7 {
+  border-radius: 10px;
+  height: 65%;
+}
+
+#image-8 {
+  border-radius: 10px;
+  height: 65%;
+}
+
+#view-all-button a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #18c9c9;
+}
+
+#footer {
+  background-color: black;
+}
+
+#footer h6 {
+  color: #fff;
+}
+
+#footer p {
+  color: rgb(136, 136, 136);
+  font-size: 1rem;
+}
+
+#footer a {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+#footer-about ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer-about ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#footer-about ul li a {
+  display: flex;
+  align-items: center;
+  color: #000;
+  background-color: rgb(136, 136, 136);
+  width: 100%;
+  height: 100%;
+  font-size: .7rem;
+  padding: .7rem;
+  border-radius: 30%;
+}
+
+#footer-about i {
+  font-size: 1.5rem;
+  width: 15%;
+  height: 5%;
+}
+
+#footer-about p {
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+}
+
+#footer-bottom-link a {
+  text-decoration: none;
+  width: 100%;
+  color: #18c9c9;
+}
+
+
+.youtube-link {
+  background: url(../img/sample-1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-link i {
+  color: red;
+  font-size: 3rem;
+}
+
+form input {
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+#button-1 {
+  font-size: 1.1rem;
+}
+
+#get-in-touch {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#Itinerary ul {
+  margin: 0;
+  padding: 0;
+}
+
+#Itinerary ul li {
+  list-style: none;
+}
+
+#Itinerary ul li a {
+  text-decoration: none;
+}
+
+#mytab a {
+  background-color: rgba(58, 58, 58, 0.2);
+  color: rgb(58, 58, 58);
+  width: 9rem;
+  font-size: .9rem;
+  text-align: center;
+  font-weight: 600;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#day-1 {
+  height: 100%;
+  background-color: rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 10px;
+  color: rgb(58, 58, 58);
+  transition: all 1s;
+}
+
+
+
+
+#day-2 {
+  height: 20%;
+  background-color: rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+
+#day-3 {
+  height: 20%;
+  background-color: rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+
+#day-4 {
+  height: 20%;
+  background-color: rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+
+#day-5 {
+  height: 20%;
+  background-color: rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+
+
+#day-6 {
+  height: 20%;
+  background-color: rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+#day-6:hover {
+  background-color: rgb(58, 58, 58);
+  color: #fff;
+}
+
+.day {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day h6 {
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.day-content {
+  width: 75%;
+  height: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.day-content h6 {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.note {
+  width: 100%;
+  font-weight: 500;
+}
+
+.month {
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.month h5 {
+  padding-top: .5rem;
+}
+
+#Dates-Costing button {
+  font-size: 1.2rem;
+  border-radius: 15px;
+}
+
+.dates h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+}
+
+.special {
+  font-size: 1.3rem;
+  width: 70%;
+  font-weight: 300;
+}
+
+.booking-dates {
+  width: 70%;
+}
+
+.costing-inner {
+  width: 70%;
+  height: 100%;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.batch-1 {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.batch-2 {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+#main-table {
+  text-align: center;
+  padding: 1rem;
+  width: 70%;
+  background-color: rgba(58, 58, 58, 0.2);
+  border-radius: 25px;
+}
+
+table td {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: .5rem;
+}
+
+.table-heading td {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: rgb(58, 58, 58);
+  color: #fff;
+  border-radius: 25px;
+}
+
+.booking-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-footer button {
+  font-size: 1.3rem;
+  padding: .3rem 6rem;
+}
+
+
+#inner-table-1 {
+  background-color: gold;
+}
+
+#inner-table-2 {
+  background-color: green;
+}
+
+#booking {
+  text-align: center;
+  padding: 1rem;
+  width: 50%;
+  height: 60vh;
+  background-color: rgba(58, 58, 58, 0.2);
+  border-radius: 20px;
+}
+
+#booking th {
+  padding: .5rem;
+  font-size: 1.5rem;
+  background-color: rgb(58, 58, 58);
+  color: #fff;
+  border-radius: 50px;
+}
+
+#booking td {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: .5rem;
+}
+
+#personal-detail textarea {
+  width: 100%;
+}
+
+#batch-detail i {
+  font-size: 1rem;
+}
+
+#mytab {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+#slider-heading {
+  display: flex;
+}
+
+
+@media screen and (max-width:1200px) {
+  #city-of-dream-heading {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+  #swiper h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  #city-of-dream {
+    height: 100%;
+  }
+
+  #city-of-dream h1 {
+    font-size: 3rem;
+  }
+
+  .quick-information ul li a {
+    display: block;
+    font-size: 1rem;
+    background-color: rgba(58, 58, 58, 0.2);
+    width: 40px;
+    height: 40px;
+    color: #000;
+    border-radius: 5rem;
+  }
+
+  .quick-information h4 {
+    font-size: 1rem;
+  }
+
+
+  .highlight {
+    font-size: .8rem;
+  }
+
+  .youtube-link {
+    background: url(../img/sample-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .youtube-link i {
+    color: red;
+    font-size: 2rem;
+  }
+
+  #get-in-touch h6 {
+    font-size: .7rem;
+  }
+
+  form h1 {
+    font-size: 1.3rem;
+  }
+
+  #button-1 {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #view-all-button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+  }
+
+  #view-all-button a {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  #swiper h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  #city-of-dream-btn-1 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: .8rem;
+  }
+
+  #city-of-dream-btn-2 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: .8rem;
+  }
+
+
+  #footer-bottom-link {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  #footer-bottom-link a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+    font-size: .6rem;
+  }
+
+  form input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 100%;
+  }
+
+
+  #mytab a {
+    background-color: rgba(58, 58, 58, 0.2);
+    color: rgb(58, 58, 58);
+    width: 7rem;
+    font-size: .7rem;
+    font-weight: 700;
+    padding: 0;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .note {
+    width: 100%;
+    font-weight: 700;
+    font-size: .6rem;
+  }
+
+  .month {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+
+  .month h5 {
+    font-size: .7rem;
+    font-size: 800;
+  }
+
+  .batch-dates h5 {
+    font-size: .8rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+  }
+
+  #dates-costing-btn button {
+    width: 7rem;
+    height: 2rem;
+    font-size: .8rem;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-weight: 600;
+  }
+
+  .special {
+    font-size: .7rem;
+    width: 70%;
+    font-weight: 300;
+  }
+
+  #booking-dates {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #booking-dates button {
+    width: 7rem;
+    height: 2rem;
+    font-size: .8rem;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-weight: 600;
+  }
+
+  .costing h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  table {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 1px;
+    background-color: rgba(58, 58, 58, 0.2);
+  }
+
+  table td {
+    width: 100%;
+    font-size: .7rem;
+    font-weight: 400;
+  }
+
+  .table-heading td {
+    font-size: .7rem;
+    font-weight: 700;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    border-radius: 1px;
+  }
+
+  #main-table {
+    text-align: center;
+    padding: 1rem;
+    width: 70%;
+    background-color: rgba(58, 58, 58, 0.2);
+  }
+
+  .inclusion p {
+    font-size: .6rem;
+  }
+
+  .inclusion-heading h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  .add-ons p {
+    font-size: .5rem;
+  }
+
+  .add-ons-heading h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  .exclusion p {
+    font-size: .6rem;
+  }
+
+  .exclusion h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  #review h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  #review img {
+    width: 100%;
+  }
+
+  .must-carry {
+    font-size: .7rem;
+  }
+
+  .cancelling {
+    font-size: .8rem;
+  }
+
+  .cancelling h3 {
+    font-size: 1.3rem;
+  }
+
+  .cancelling h5 {
+    font-size: .9rem;
+    font-weight: 600;
+  }
+
+  .thingtocarry h2 {
+    font-size: .9rem;
+    font-weight: 800;
+    color: rgb(58, 58, 58);
+  }
+
+  .thingtocarry h5 {
+    font-size: .6rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+  }
+
+  .thingtocarry {
+    font-size: .7rem;
+    color: rgb(58, 58, 58);
+    ;
+  }
+
+  .day-content h6 {
+    font-size: .7rem;
+    font-weight: 400;
+  }
+
+  #city-of-dream-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  #city-of-dream-heading {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  #modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+
+  #regForm {
+    width: 100%;
+  }
+
+  #modal-dates {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modal-dates h6 {
+    font-size: .6rem;
+  }
+
+  #check-box {
+    display: flex;
+  }
+
+  #modal-heading {
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+
+  #step-button {
+    width: 100%;
+    height: 100%;
+  }
+
+  #step-button button {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+
+  #batch-detail {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #personal-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #000;
+  }
+
+  #batch-detail h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  #batch-detail i {
+    font-size: 1rem;
+  }
+
+  #personal-detail textarea {
+    width: 100%;
+  }
+
+  #slider-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  #header{
+    background-color: black;
+  }
+  #header button{
+    background-color: white;
+    border: none;
+  }
+  #city-of-dream-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  #city-of-dream-btn-1 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: .7rem;
+    width: 7rem;
+  }
+
+  #city-of-dream-btn-2 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: .7rem;
+    width: 7rem;
+  }
+
+  #city-of-dream-heading {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+
+  form input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 80%;
+  }
+
+  #footer-bottom-link {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  #footer-bottom-link a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+    font-size: .6rem;
+  }
+
+  #view-all-button {
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    align-items: center;
+  }
+
+  #view-all-button a {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  #batch-detail h6 {
+    font-size: .9rem;
+  }
+
+  #batch-detail i {
+    font-size: .9rem;
+  }
+
+  #batch-detail a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #regForm {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+
+  #personal-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #000;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  #trip-page-head {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/dubai-trip-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+  }
+
+  #city-of-dream-heading {
+    height: 33vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  #city-of-dream-btn-1 {
+    height: 2rem;
+    width: 6rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    background-color: white;
+    color: rgb(58, 58, 58);
+    font-size: .5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #city-of-dream-btn-2 {
+    height: 2rem;
+    width: 6rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    background-color: white;
+    color: rgb(58, 58, 58);
+    font-size: .5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #city-of-dream-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 1rem;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+
+  #city-of-dream-heading h5 {
+    font-size: 3.5vw;
+  }
+
+  #city-of-dream-heading h1 {
+    font-size: 9vw;
+    font-weight: 400;
+  }
+
+  #quick-information i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  #quick-info p {
+    font-size: .7rem;
+    color: rgb(58, 58, 58);
+  }
+
+  #quick-info h5 {
+    line-height: 1.8rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+
+  #footer-about ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #footer-about ul li {
+    list-style: none;
+    display: inline-block;
+    padding: .7rem;
+  }
+
+  #footer-about ul li a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    background-color: rgb(136, 136, 136);
+    width: 100%;
+    height: 100%;
+    font-size: .7rem;
+    padding: .7rem;
+    border-radius: 30%;
+  }
+  
+  #footer-about i {
+    font-size: 1.5rem;
+    width: 15%;
+    height: 5%;
+  }
+
+  #footer-about p {
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  #footer-bottom-link {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  #footer-bottom-link a {
+    text-decoration: none;
+    color: #18c9c9;
+    font-weight: 700;
+    font-size: .6rem;
+  }
+
+  .day h6 {
+    font-size: .5rem;
+    font-weight: 700;
+  }
+
+  .day-content {
+    width: 80%;
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .day-content h6 {
+    font-size: .7rem;
+    font-weight: 400;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+
+  .card-body i {
+    font-size: 1rem;
+  }
+
+  .note {
+    width: 100%;
+    font-weight: 700;
+    font-size: .6rem;
+  }
+
+  .month {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+
+  .month h5 {
+    font-size: .7rem;
+    font-size: 800;
+  }
+
+  .batch-dates h5 {
+    font-size: .8rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+  }
+
+  #dates-costing-btn button {
+    width: 7rem;
+    height: 2rem;
+    font-size: .8rem;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-weight: 600;
+  }
+
+  .special {
+    font-size: .7rem;
+    width: 70%;
+    font-weight: 300;
+  }
+
+  #booking-dates {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #booking-dates button {
+    width: 7rem;
+    height: 2rem;
+    font-size: .8rem;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-weight: 600;
+  }
+
+  .costing h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  table {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 1px;
+    background-color: rgba(58, 58, 58, 0.2);
+  }
+
+  table td {
+    width: 100%;
+    font-size: .7rem;
+    font-weight: 400;
+  }
+
+  .table-heading td {
+    font-size: .7rem;
+    font-weight: 700;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    border-radius: 1px;
+  }
+
+  #main-table {
+    text-align: center;
+    padding: 1rem;
+    width: 70%;
+    background-color: rgba(58, 58, 58, 0.2);
+  }
+
+  .inclusion p {
+    font-size: .6rem;
+  }
+
+  .inclusion-heading h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  .add-ons p {
+    font-size: .5rem;
+  }
+
+  .add-ons-heading h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  .exclusion p {
+    font-size: .6rem;
+  }
+
+  .exclusion h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  #review h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  #review img {
+    width: 100%;
+  }
+
+  .must-carry {
+    font-size: .7rem;
+  }
+
+  .cancelling {
+    font-size: .8rem;
+  }
+
+  .cancelling h3 {
+    font-size: 1.3rem;
+  }
+
+  .cancelling h5 {
+    font-size: .9rem;
+    font-weight: 600;
+  }
+
+  .thingtocarry h2 {
+    font-size: .9rem;
+    font-weight: 800;
+    color: rgb(58, 58, 58);
+  }
+
+  .thingtocarry h5 {
+    font-size: .6rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+  }
+
+  .thingtocarry {
+    font-size: .7rem;
+    color: rgb(58, 58, 58);
+    ;
+  }
+
+  .youtube-link {
+    background: url(../img/sample-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .youtube-link i {
+    color: red;
+    font-size: 2rem;
+  }
+
+  #get-in-touch h6 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  form h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  #swiper h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  #button-1 {
+    font-size: .8rem;
+  }
+
+  #view-all-button a {
+    font-size: 1.1rem;
+  }
+
+  #nav-bar-number {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .6rem;
+  }
+
+  .navbar-brand {
+    font-size: .8rem;
+  }
+
+  #quick-information i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  #quick-info p {
+    font-size: .4rem;
+    color: rgb(58, 58, 58);
+  }
+
+  #quick-info h5 {
+    line-height: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+  }
+
+  #quick-information a {
+    display: block;
+    font-size: .8rem;
+    background-color: rgba(58, 58, 58, 0.2);
+    width: 30px;
+    height: 30px;
+    color: #000;
+    border-radius: 5rem;
+    padding: .5rem;
+    text-decoration: none;
+  }
+
+  #mytab a {
+    background-color: rgba(58, 58, 58, 0.2);
+    color: rgb(58, 58, 58);
+    width: 6rem;
+    font-size: .6rem;
+    font-weight: 600;
+    height: 2rem;
+  }
+
+  .day {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

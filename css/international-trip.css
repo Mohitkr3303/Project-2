@@ -1,0 +1,1305 @@
+@font-face {
+    font-family: mont;
+    src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: mont;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+}
+
+.nav-Bar.scrolled {
+    background-color: black;
+}
+
+.navbar {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand {
+    width: 20%;
+}
+
+.navbar-brand img {
+    width: 41%;
+}
+
+#nav-bar-number {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+#navbarNav a:hover {
+    background-color: #18c9c9;
+}
+
+#nav-bar-number:hover {
+    background-color: #18c9c9;
+}
+
+#header {
+    font-size: 0.8rem;
+}
+
+#header a {
+    color: #fff;
+}
+
+#box {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/international-main.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#box h3 {
+    font-size: 2.5rem;
+}
+
+#box-2 {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#s1 img {
+    width: 15%;
+}
+
+#s1 p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+#box-3 {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-3 img {
+    height: 50%;
+    width: 30%;
+}
+
+#box-3 .col-4 {
+    transition: all 2s;
+}
+
+#box-3 .col-4:hover {
+    transform: scale(1.2);
+}
+
+
+.card-body p {
+    font-size: 1rem;
+    color: #18c9c9;
+}
+
+.card-body i {
+    font-size: 1rem;
+    color: #18c9c9;
+}
+
+.card-body h5,
+h6 {
+    color: rgb(58, 58, 58);
+}
+
+
+#international-trip-department {
+    width: 100%;
+    height: 100%;
+}
+
+#cards {
+    width: 100%;
+    height: 100%;
+}
+
+#mid-last img {
+    width: 35%;
+}
+
+#card-block {
+    transition: all .5s;
+    text-decoration: none;
+}
+
+#card-block:hover {
+    transform: scale(1.1);
+}
+
+#card-block img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+#card-block h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#card-block p {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+#carousel-item-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 43.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#carousel-item-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 44.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#carousel-item-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 45.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.fa-youtube {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(50%, 50%);
+    font-size: 5rem;
+}
+
+#carousel-item-1:hover {
+    color: red;
+}
+
+#carousel-item-2:hover {
+    color: red;
+}
+
+#carousel-item-3:hover {
+    color: red;
+}
+
+.carousel-control-prev-icon {
+    background-color: gray;
+    border-radius: 15px;
+    position: relative;
+    left: -10rem;
+}
+
+.carousel-control-next-icon {
+    background-color: gray;
+    border-radius: 15px;
+    position: relative;
+    right: -10rem;
+}
+
+#testimonial {
+    border-radius: 15px;
+    width: 100%;
+    height: 70vh;
+}
+
+#mid {
+    background: url(../img/asset\ 42.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mid-img img {
+    height: 100%;
+    width: 100%;
+}
+
+#mid-box {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#city-of-dream-btn-1 {
+    height: 3.5rem;
+    width: 15rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #18c9c9;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    transition: all 1s;
+    background-color: #18c9c9;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#footer {
+    background-color: black;
+}
+
+#footer h6 {
+    color: #fff;
+}
+
+#footer p {
+    color: rgb(136, 136, 136);
+    font-size: 1rem;
+}
+
+#footer a {
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+#footer-about ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-about ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#footer-about ul li a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    background-color: rgb(136, 136, 136);
+    width: 100%;
+    height: 100%;
+    font-size: .7rem;
+    padding: .7rem;
+    border-radius: 30%;
+  }
+  
+  #footer-about i {
+    font-size: 1.5rem;
+    width: 15%;
+    height: 5%;
+  }
+
+  #footer-about p {
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: left;
+  }
+
+#footer-bottom-link a {
+    text-decoration: none;
+    width: 100%;
+    color: #18c9c9;
+}
+
+
+#card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+    #international-trip-heading {
+        height: 50vh;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #box {
+        height: 70vh;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/international-main.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    #box h1 {
+        font-size: 3rem;
+    }
+
+    #box h3 {
+        font-size: 2.3rem;
+    }
+
+    #header {
+        font-size: 0.5rem;
+    }
+
+    #box-2 {
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+
+    #s1 p {
+        color: #fff;
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+
+    #box-3 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #box-3 p {
+        color: rgb(66, 66, 66);
+        font-size: 0.8rem;
+    }
+
+    #box-3 a {
+        display: block;
+        margin: 0.8rem;
+    }
+
+    #box-3 img {
+        width: 20%;
+    }
+
+    #mid {
+        background: url(../img/asset\ 42.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-img {
+        height: 100%;
+    }
+
+    #mid-box {
+        background-color: #fff;
+        height: 30vh;
+        border-radius: 20px;
+        width: 70%;
+    }
+
+    #mid-box p {
+        font-size: 0.6rem;
+    }
+
+    #mid-box h3 {
+        font-size: .8rem;
+    }
+
+    #mid-box button {
+        font-size: 0.5rem;
+    }
+
+
+    #carousel-item-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 43.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 44.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 45.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #slider-image-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slider-2.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 60vh;
+        border-radius: 20px;
+    }
+
+    #slider-image-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slider-1.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 60vh;
+        border-radius: 20px;
+    }
+
+    #slider-image-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slider-3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 60vh;
+        border-radius: 20px;
+    }
+
+    #slider-image-4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slider-4.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 60vh;
+        border-radius: 20px;
+    }
+
+    #slider-image-5 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slider-5.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 60vh;
+        border-radius: 20px;
+    }
+
+    #slider-image-6 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slider-6.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 60vh;
+        border-radius: 20px;
+    }
+
+    #testimonial {
+        border-radius: 15px;
+        width: 100%;
+        height: 40vh;
+    }
+
+    #trip-destination h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgb(58, 58, 58);
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1.7rem;
+    }
+
+    #mid-last img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 801px) {
+    #trip-heading {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #trip-heading-2 {
+        height: 100%;
+
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    #box-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    #box {
+        height: 60vh;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/international-main.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    #testimonial {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .fa-youtube {
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        transform: translate(50%, 50%);
+        font-size: 3rem;
+    }
+
+    #carousel-item-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 43.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 44.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 45.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #mid {
+        background: url(../img/asset\ 42.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-img {
+        height: 100%;
+    }
+
+    #mid-box {
+        background-color: #fff;
+        height: 20vh;
+        border-radius: 20px;
+        width: 70%;
+    }
+
+    #city-of-dream-btn-1 {
+        height: 2rem;
+        width: 7rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        background-color: #18c9c9;
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #box {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/international-main.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+
+    #s1 img {
+        width: 40%;
+    }
+
+    #s1 p {
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    #mid {
+        background: url(../img/asset\ 42.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-img {
+        height: 100%;
+    }
+
+    #mid-box {
+        background-color: #fff;
+        height: 25vh;
+        border-radius: 20px;
+        width: 80%;
+    }
+
+    #mid-box p {
+        font-size: 0.6rem;
+    }
+
+    #mid-box h3 {
+        font-size: .8rem;
+    }
+
+    #mid-box button {
+        font-size: 0.5rem;
+    }
+
+    #city-of-dream-btn-1 {
+        height: 1.5rem;
+        width: 7rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        background-color: #18c9c9;
+        font-size: .6rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .carousel-control-prev-icon {
+        background-color: gray;
+        border-radius: 15px;
+        position: relative;
+        left: -4rem;
+    }
+
+    .carousel-control-next-icon {
+        background-color: gray;
+        border-radius: 15px;
+        position: relative;
+        right: -4rem;
+    }
+
+
+    #footer-about ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    #footer-about ul li a {
+        display: flex;
+        align-items: center;
+        color: #000;
+        background-color: rgb(136, 136, 136);
+        width: 100%;
+        height: 100%;
+        font-size: .7rem;
+        padding: .7rem;
+        border-radius: 30%;
+      }
+      
+      #footer-about i {
+        font-size: 1.5rem;
+        width: 15%;
+        height: 5%;
+      }
+
+      #footer-about p {
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        text-align: left;
+      }
+
+    #footer-bottom-link a {
+        font-size: .8rem;
+    }
+
+    #review h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    #review img {
+        width: 30%;
+    }
+
+    #card-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #trip-heading {
+        height: 30vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #trip-heading h1 {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    #trip-heading-2 {
+        height: 30vh;
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    #box-2 {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    #s1 img {
+        width: 20%;
+    }
+
+    .fa-youtube {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        transform: translate(50%, 50%);
+        font-size: 3rem;
+    }
+
+    #footer h5 {
+        font-size: 1rem;
+    }
+
+    #carousel-item-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 43.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 44.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 45.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    #header{
+        background-color: black;
+      }
+      #header button{
+        background-color: white;
+        border: none;
+      }
+    #mid {
+        background: url(../img/asset\ 42.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-img {
+        height: 100%;
+    }
+
+    #mid-box {
+        background-color: #fff;
+        height: 20vh;
+        border-radius: 20px;
+        width: 60%;
+    }
+
+    #mid-box p {
+        font-size: 0.4rem;
+    }
+
+    #mid-box h3 {
+        font-size: .6rem;
+    }
+
+    #mid-box button {
+        font-size: 0.4rem;
+    }
+
+
+    #carousel-item-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 43.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 44.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 45.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #testimonial {
+        border-radius: 15px;
+        width: 100%;
+        height: 20vh;
+    }
+
+    #box h1 {
+        font-size: 2rem;
+    }
+
+    #box h3 {
+        font-size: 1.5rem;
+    }
+
+    #trip-destination h1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgb(58, 58, 58);
+    }
+
+    #trip-destination h4 {
+        font-size: .9rem;
+    }
+
+    #footer-about ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer-about ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    #footer-about ul li a {
+        display: flex;
+        align-items: center;
+        color: #000;
+        background-color: rgb(136, 136, 136);
+        width: 100%;
+        height: 100%;
+        font-size: .7rem;
+        padding: .7rem;
+        border-radius: 30%;
+      }
+      
+      #footer-about i {
+        font-size: 1.5rem;
+        width: 15%;
+        height: 5%;
+      }
+
+      #footer-about p {
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        text-align: left;
+      }
+
+    #footer-bottom-link {
+        width: 100%;
+        display: flex;
+        height: 100%;
+    }
+
+    #footer-bottom-link a {
+        text-decoration: none;
+        color: rgb(58, 58, 58);
+        font-weight: 700;
+        font-size: .6rem;
+    }
+
+    .fa-youtube {
+        position: absolute;
+        top: 20%;
+        left: 32%;
+        transform: translate(50%, 50%);
+        font-size: 3rem;
+    }
+
+    #trip-heading {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #card-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer h5 {
+        font-size: .7rem;
+    }
+
+    #trip-heading {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #trip-heading-2 {
+        height: 100%;
+
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    #box-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    #box {
+        height: 60vh;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/international-main.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    #city-of-dream-btn-1 {
+        height: 1.5rem;
+        width: 4rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        background-color: #18c9c9;
+        font-size: .5rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    #box {
+        height: 65vh;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/international-main.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    #mid {
+        background: url(../img/asset\ 42.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-img {
+        height: 100%;
+    }
+
+    #mid-box {
+        background-color: #fff;
+        height: 20vh;
+        border-radius: 20px;
+        width: 80%;
+    }
+
+    #mid-box p {
+        font-size: 0.4rem;
+    }
+
+    #mid-box h3 {
+        font-size: .5rem;
+    }
+
+    #mid-box button {
+        font-size: 0.3rem;
+    }
+
+    #footer h6 {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #footer h5 {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #footer p {
+        color: rgb(136, 136, 136);
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    #footer h4 {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: gray;
+        border-radius: 15px;
+        position: relative;
+        left: -2.5rem;
+    }
+
+    .carousel-control-next-icon {
+        background-color: gray;
+        border-radius: 15px;
+        position: relative;
+        right: -2.5rem;
+    }
+
+    #review {
+        margin-top: 1rem;
+    }
+
+    #review h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #footer-about ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer-about ul li {
+        list-style: none;
+        display: inline-block;
+        padding: .7rem;
+    }
+
+    #footer-about ul li a {
+        display: flex;
+        align-items: center;
+        color: #000;
+        background-color: rgb(136, 136, 136);
+        width: 100%;
+        height: 100%;
+        font-size: .7rem;
+        padding: .7rem;
+        border-radius: 30%;
+      }
+      
+      #footer-about i {
+        font-size: 1.5rem;
+        width: 15%;
+        height: 5%;
+      }
+
+      #footer-about p {
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        text-align: left;
+      }
+
+    #footer-bottom-link {
+        width: 100%;
+        display: flex;
+        height: 100%;
+    }
+
+    #footer-bottom-link a {
+        text-decoration: none;
+        color: #18c9c9;
+        font-weight: 700;
+        font-size: .6rem;
+    }
+
+    .fa-youtube {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(50%, 50%);
+        font-size: 2rem;
+    }
+
+    #testimonial-heading h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: rgb(58, 58, 58);
+    }
+
+    #testimonial-heading h5 {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    #card-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #trip-heading {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #trip-heading-2 h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #nav-bar-number {
+        font-weight: 500;
+        font-size: .8rem;
+    }
+
+    #trip-heading-2 {
+        height: 100%;
+    }
+
+    #trip-heading-2 h3 {
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    #box-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    #carousel-item-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 43.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 44.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset\ 45.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+}

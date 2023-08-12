@@ -1,0 +1,235 @@
+@font-face {
+  font-family: mont;
+  src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: mont;
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+}
+
+.nav-Bar.scrolled {
+  background-color: black;
+}
+
+.navbar {
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  background-color: black;
+}
+
+.navbar-brand {
+  width: 20%;
+}
+
+.navbar-brand img {
+  width: 41%;
+}
+
+#nav-bar-number {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+#navbarNav a:hover {
+  background-color: #18c9c9;
+}
+
+#nav-bar-number:hover {
+  background-color: #18c9c9;
+}
+#contact-us-info col-12{
+background-color: red;
+}
+
+#header {
+  font-size: 0.8rem;
+}
+
+#header a {
+  color: #fff;
+}
+
+#city-of-dream-btn-1 {
+  height: 2.5rem;
+  width: 7rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #18c9c9;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#contact-us-info-1 {
+  display: flex;
+  height: 100%;
+}
+
+#icon {
+  padding: 0 1rem;
+}
+
+#contact-us-info h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#contact-us-heading h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+#contact-us-info-1 {
+  padding: 1rem;
+}
+
+#contact-us-info-1 h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-box input {
+  height: 3rem;
+  border: 1px solid #000;
+  margin: .5rem 0;
+}
+
+#input-box textarea {
+  border: 1px solid #000;
+}
+
+#contact-us-heading-2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 25vh;
+}
+
+#contact-us-heading-2 h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#footer {
+  background-color: black;
+}
+
+#footer h6 {
+  color: #fff;
+}
+
+#footer p {
+  color: rgb(136, 136, 136);
+  font-size: 1rem;
+}
+
+#footer a {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+#footer-about ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer-about ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#footer-about ul li a {
+  display: flex;
+  align-items: center;
+  color: #000;
+  background-color: rgb(136, 136, 136);
+  width: 100%;
+  height: 100%;
+  font-size: .7rem;
+  padding: .7rem;
+  border-radius: 30%;
+}
+
+#footer-about i {
+  font-size: 1.5rem;
+  width: 15%;
+  height: 5%;
+}
+
+#footer-about p {
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+}
+
+#footer-bottom-link a {
+  text-decoration: none;
+  width: 100%;
+  color: #18c9c9;
+}
+
+@media screen and (max-width: 950px) {
+  #contact-us-heading-2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 5vh;
+  }
+
+  @media screen and (max-width: 768px) {
+    #contact-us-heading-2 {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 5vh;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    #header{
+      background-color: black;
+    }
+    #header button{
+      background-color: white;
+      border: none;
+    }
+    #contact-us-heading-2 {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 5vh;
+    }
+
+    #footer-bottom-link a {
+      font-size: .6rem;
+    }
+    #footer-about ul li {
+      list-style: none;
+      display: inline-block;
+      padding: .7rem;
+    }
+  }
+}
